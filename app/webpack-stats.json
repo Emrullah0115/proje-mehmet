@@ -1,0 +1,48 @@
+{
+  "status": "done",
+  "assets": {
+    "frontend-21222cfe6434a2a1a660.js": {
+      "name": "frontend-21222cfe6434a2a1a660.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-21222cfe6434a2a1a660.js",
+      "publicPath": "static/frontend/frontend-21222cfe6434a2a1a660.js"
+    },
+    "frontend-4afdc312eb9825c15971.js": {
+      "name": "frontend-4afdc312eb9825c15971.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-4afdc312eb9825c15971.js",
+      "publicPath": "static/frontend/frontend-4afdc312eb9825c15971.js"
+    },
+    "frontend-5f80b38eb6c48f2d3326.js": {
+      "name": "frontend-5f80b38eb6c48f2d3326.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-5f80b38eb6c48f2d3326.js",
+      "publicPath": "static/frontend/frontend-5f80b38eb6c48f2d3326.js"
+    },
+    "frontend-9480dafaa139ecb07e87.js": {
+      "name": "frontend-9480dafaa139ecb07e87.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-9480dafaa139ecb07e87.js",
+      "publicPath": "static/frontend/frontend-9480dafaa139ecb07e87.js"
+    },
+    "frontend-c352fd7308ca0b05f92e.js": {
+      "name": "frontend-c352fd7308ca0b05f92e.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-c352fd7308ca0b05f92e.js",
+      "publicPath": "static/frontend/frontend-c352fd7308ca0b05f92e.js"
+    },
+    "frontend-d5370a5bd0b50a90c305.js": {
+      "name": "frontend-d5370a5bd0b50a90c305.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-d5370a5bd0b50a90c305.js",
+      "publicPath": "static/frontend/frontend-d5370a5bd0b50a90c305.js"
+    },
+    "frontend-f2e6d95e05f1c31f589b.js": {
+      "name": "frontend-f2e6d95e05f1c31f589b.js",
+      "path": "C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\static\\frontend\\frontend-f2e6d95e05f1c31f589b.js",
+      "publicPath": "static/frontend/frontend-f2e6d95e05f1c31f589b.js"
+    }
+  },
+  "chunks": {
+    "frontend": [
+      "frontend-9480dafaa139ecb07e87.js"
+    ]
+  },
+  "publicPath": "static/frontend/",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lenovo\\Desktop\\form\\app\\frontend\\src\\components\\DragDrop.js: Unexpected token, expected \",\" (27:15)\n\n  25 |     drop: (item) => addImageToBoard(item.id),\n  26 |     collect: (monitor) => ({\n> 27 |         console.log(monitor),\n     |                ^\n  28 |         isOver: !!monitor.isOver(),\n  29 |    \n  30 | }),\n    at constructor (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:356:19)\n    at JSXParserMixin.raise (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:3223:19)\n    at JSXParserMixin.unexpected (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:3253:16)\n    at JSXParserMixin.expect (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:3590:28)\n    at JSXParserMixin.parseObjectLike (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11655:14)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11160:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10572:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:12289:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10572:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11504:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11142:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11933:24)\n    at JSXParserMixin.parseArrowExpression (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11915:10)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11516:12)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11142:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10821:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10659:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10664:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10641:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10602:21)\n    at C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10572:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:12289:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10572:17)\n    at JSXParserMixin.parseObjectProperty (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11789:83)\n    at JSXParserMixin.parseObjPropValue (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11816:100)\n    at JSXParserMixin.parsePropertyDefinition (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11750:17)\n    at JSXParserMixin.parseObjectLike (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11665:21)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:11160:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10862:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lenovo\\Desktop\\form\\app\\node_modules\\@babel\\parser\\lib\\index.js:10845:21)"
+}

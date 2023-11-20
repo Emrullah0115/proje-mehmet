@@ -1,0 +1,27 @@
+.App{
+width: 80%;
+height: auto;
+margin: auto;
+}
+.Pictures {
+width: auto;
+height: auto;
+display: block;
+text-align: center;
+
+}
+.img{
+    margin: 5px;
+
+
+}
+
+.Board{
+width: 500px;
+min-height: 400px;
+background-color: #fafafa;
+box-shadow: 1px 1px 20px 1px #aabbcc;
+border-radius: 5px;
+margin: auto;
+text-align: center;
+}
